@@ -1,0 +1,119 @@
+body{
+    background: #1d71b8;
+}
+img{
+    width: 100%;
+}
+header .contact-bar{
+    background: #fff;
+    padding: 10px;
+}
+header .contact-bar .icons {
+    display: flex;
+
+}
+header .contact-bar .icons a{
+    background: #1d71b8;
+    border-radius: 50%;
+    height: 10px;
+    width: 10px;
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-style: normal;
+    text-decoration: none;
+    color: #fff;
+    margin-right: 20px;
+    transition: all .5s;
+}
+header .contact-bar .icons a:hover{
+    transition: all .5s;
+    background: #0f3657;
+}
+header .contact-bar .icons i{
+    font-size: 20px;
+}
+header .contact-bar .content{
+    display: flex;
+    justify-content: space-between;
+}
+header .contact-bar .phone-email{
+    align-items: flex-end;
+}
+header .contact-bar .phone-email a{
+    text-decoration: none;
+    color: #0f3657;
+    transition: all .5s;
+}
+header .contact-bar .phone-email a:hover{
+    transform: scale(0.7);
+    transition: all .5s;
+
+}
+header .contact-bar .phone-email .phone{
+    font-weight: bold;
+    margin-right: 50px;
+    position: relative;
+}
+header .contact-bar .phone-email .phone i{
+    font-size: 30px;
+    left: -30px;
+    top: -3px;
+    position: absolute;
+}
+header .contact-bar .phone-email .email{
+    font-weight: bold;
+    margin-right: 0px;
+    position: relative;
+}
+header .contact-bar .phone-email .email i{
+    font-size: 25px;
+    left: -30px;
+    top: 0px;
+    position: absolute;
+}
+header .logo{
+    max-width: 300px;
+    width: 100%;
+    display: block;
+    margin: auto;
+}
+header .carousel-item .container-car-galery{
+    max-width: 1100px;
+    width: 100%;
+    display: block;
+    margin: auto;
+}
+header .carousel-item .unit-img img{
+    max-width: 600px;
+}
+header .carousel-item .group-galery{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    row-gap: 4px #fff;
+}
+header .carousel-item .group-galery img{
+    max-width: 300px;
+}
+header .carousel-item .carousel-caption h3{
+    font-weight: bold;
+}
+header .carousel-item .carousel-caption h3 span{
+    background: #3939398f;
+}
+header .carousel-item .carousel-caption p{
+    margin-bottom: 0;
+}
+header .carousel-item .carousel-caption .ofert span{
+    color: red;
+    text-decoration: line-through;
+}
+header .carousel-item .carousel-caption h5{
+    font-weight: bold;
+    margin-top: 10px;
+}
+header .carousel-item .carousel-caption h5 span{
+    background: #1d72b899;
+    padding: 5px 20px;
+}
